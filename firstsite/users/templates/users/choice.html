@@ -1,0 +1,7 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h2>Sign up for a free account</h2>
+   <h2> <p class="lead">Select below the type of account you want to create</p></h2>
+    <a href="{% url 'student_register' %}" class="btn btn-primary btn-lg" role="button">Server</a>
+    <a href="{% url 'teacher_register' %}" class="btn btn-info btn-lg" role="button">Customer</a>
+{% endblock content %}    
